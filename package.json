@@ -1,6 +1,6 @@
 {
-  "name": "hop-cli",
-  "version": "1.0.0",
+  "name": "@hbbtv/hop-cli",
+  "version": "1.0.1",
   "description": "HOP CLI Interfce",
   "main": "./lib/index.js",
   "scripts": {

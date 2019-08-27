@@ -62,9 +62,13 @@ typings/
 
 .idea
 .idea/*
-
 .idea/deployment.xml
-
 .idea/vcs.xml
-
 lib/
+lib/*
+
+# Ignore Git here
+.git
+
+# But not these files...
+!.gitignore
