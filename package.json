@@ -1,46 +1,46 @@
 {
-  "name": "@hbbtv/hop-cli",
-  "version": "1.0.1",
-  "description": "HOP CLI Interfce",
-  "main": "./lib/index.js",
-  "scripts": {
-    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
-    "create": "npm run build && npm run test",
-    "build": "tsc -p .",
-    "test": "sudo npm i -g && pizza",
-    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/faridv/hop-cli.git"
-  },
-  "keywords": [
-    "hbbtv",
-    "hop",
-    "nodejs",
-    "cli"
-  ],
-  "bin": {
-    "hop": "./lib/index.js"
-  },
-  "author": "Farid Roshan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/faridv/hop-cli/issues"
-  },
-  "homepage": "https://github.com/faridv/hop-cli#readme",
-  "dependencies": {
-    "chalk": "^2.4.2",
-    "clear": "^0.1.0",
-    "commander": "^3.0.0",
-    "figlet": "^1.2.3",
-    "path": "^0.12.7",
-    "shelljs": "^0.8.3"
-  },
-  "devDependencies": {
-    "@types/node": "^12.7.2",
-    "nodemon": "^1.19.1",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
-  }
+    "name": "@hbbtv/hop-cli",
+    "version": "1.0.2",
+    "description": "HOP CLI Interfce",
+    "main": "./bin/index.js",
+    "scripts": {
+        "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+        "create": "npm run build && npm run test",
+        "build": "tsc -p .",
+        "test": "sudo npm i -g && hop",
+        "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/faridv/hop-cli.git"
+    },
+    "keywords": [
+        "hbbtv",
+        "hop",
+        "nodejs",
+        "cli"
+    ],
+    "bin": {
+        "hop": "./bin/index.js"
+    },
+    "author": "Farid Roshan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/faridv/hop-cli/issues"
+    },
+    "homepage": "https://github.com/faridv/hop-cli#readme",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "clear": "^0.1.0",
+        "commander": "^3.0.0",
+        "figlet": "^1.2.3",
+        "path": "^0.12.7",
+        "shelljs": "^0.8.3"
+    },
+    "devDependencies": {
+        "@types/node": "^12.7.2",
+        "nodemon": "^1.19.1",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.5.3"
+    }
 }
