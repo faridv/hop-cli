@@ -1,6 +1,6 @@
 {
     "name": "@hbbtv/hop-cli",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "HOP CLI Interfce",
     "main": "./bin/index.js",
     "scripts": {
@@ -30,17 +30,24 @@
     },
     "homepage": "https://github.com/faridv/hop-cli#readme",
     "dependencies": {
+        "camelcase": "^5.3.1",
         "chalk": "^2.4.2",
+        "chdir-promise": "^0.6.2",
         "clear": "^0.1.0",
         "commander": "^3.0.0",
+        "dashify": "^2.0.0",
+        "download-git-repo": "^2.0.0",
         "figlet": "^1.2.3",
-        "path": "^0.12.7",
-        "shelljs": "^0.8.3"
+        "inquirer": "^7.0.0",
+        "pascalcase": "^1.0.0",
+        "shell-exec": "^1.0.2",
+        "shelljs": "^0.8.3",
+        "str-trim": "^1.2.0"
     },
     "devDependencies": {
-        "@types/node": "^12.7.2",
+        "@types/node": "^12.7.3",
         "nodemon": "^1.19.1",
         "ts-node": "^8.3.0",
-        "typescript": "^3.5.3"
+        "typescript": "^3.6.2"
     }
 }
