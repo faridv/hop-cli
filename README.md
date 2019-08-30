@@ -1,5 +1,5 @@
 <h1 align="center">HOP-CLI</h1>
-<h3 align="center">A command line interface for [HOP](https://github.com/faridv/hop)</h3>
+<h3 align="center">A command line interface for <a href="https://github.com/faridv/hop">HOP</a></h3>
 
 [![Dependencies](https://david-dm.org/faridv/hop-cli/status.svg)](https://david-dm.org/faridv/hop-cli)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/faridv/hop-cli/raw/master/LICENSE)
