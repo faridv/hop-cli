@@ -4,8 +4,8 @@
 [![Dependencies](https://david-dm.org/faridv/hop-cli/status.svg)](https://david-dm.org/faridv/hop-cli)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/faridv/hop-cli/raw/master/LICENSE)
 
-## The Idea
-The HOP CLI creates, manages, builds and runs your Angular projects. The idea behind it was from Angular-CLI which helps developers create and manage their projects in no time. I creted this project so you can easily install a HOP instance with your desired config with just one command.
+## The idea
+The HOP CLI creates, manages, builds and runs your Angular projects. The idea behind it was from Angular-CLI which helps developers create and manage their projects in no time. I created this project so you can easily install a HOP instance with your desired config with just one command.
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ Running the application using lower versions of Node and NPM has not been tested
 
 **BEFORE YOU INSTALL:** please read the [prerequisites](#prerequisites)
 
-### Install globablly (recommended)
+### Install globally (recommended)
 ```bash
 npm install -g @hbbtv/hop-cli
 ```
