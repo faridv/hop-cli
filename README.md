@@ -5,7 +5,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/faridv/hop-cli/raw/master/LICENSE)
 
 ## The idea
-The HOP CLI creates, manages, builds and runs your Angular projects. The idea behind it was from Angular-CLI which helps developers create and manage their projects in no time. I created this project so you can easily install a HOP instance with your desired config with just one command.
+The HOP CLI creates, manages, builds and runs your HOP-based projects. The idea behind it was from Angular-CLI which helps developers create and manage their projects in no time. I created this project so you can easily install a HOP instance with your desired config with just one command.
 
 ## Prerequisites
 
