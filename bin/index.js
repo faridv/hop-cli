@@ -61,7 +61,7 @@ program
             {
                 type: 'input',
                 name: 'locale',
-                message: "Project Description:",
+                message: "Project Locale:",
                 default: function () {
                     return 'fa';
                 }
@@ -123,7 +123,7 @@ program
                         console.log('2/3 - Updating config.json based on your inputs.');
                         var rawConfig = fs.readFileSync('config.json');
                         var config = JSON.parse(rawConfig);
-                        var newConfig = __assign({}, config, answers);
+                        var newConfig = __assign(__assign({}, config), answers);
                         fs.writeFile('config.json', JSON.stringify(newConfig, null, '\t'), function (err) {
                             if (err) {
                                 console.log('Faced error while writing the config file.', err);
@@ -243,13 +243,13 @@ program
     .command('serve')
     .description('Serve existing HOP project.')
     .action(function (cmdObj) {
-    shell.exec("npm run start");
+    exec("npm run start");
 });
 program
     .command('build')
     .description('Build existing HOP project for production use.')
     .action(function (cmdObj) {
-    shell.exec("npm run build");
+    exec("npm run build");
 });
 program.on('command:*', function () {
     console.error("Invalid command: " + program.args.join());

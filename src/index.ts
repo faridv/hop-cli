@@ -44,7 +44,7 @@ program
                     {
                         type: 'input',
                         name: 'locale',
-                        message: "Project Description:",
+                        message: "Project Locale:",
                         default: function () {
                             return 'fa';
                         }
@@ -227,14 +227,14 @@ program
     .command('serve')
     .description('Serve existing HOP project.')
     .action((cmdObj: any) => {
-        shell.exec("npm run start");
+        exec("npm run start");
     });
 
 program
     .command('build')
     .description('Build existing HOP project for production use.')
     .action((cmdObj: any) => {
-        shell.exec("npm run build");
+        exec("npm run build");
     });
 
 program.on('command:*', () => {
